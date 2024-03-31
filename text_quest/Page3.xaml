@@ -55,5 +55,14 @@
                 </Button.Resources>
             </Button>
         </StackPanel>
+        <Grid>
+            <TextBox x:Name="tbTime" Margin="27,24,0,0" Background="LightPink" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black">
+                <TextBox.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+        </Grid>
     </Grid> 
 </Page>

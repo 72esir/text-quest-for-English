@@ -12,7 +12,6 @@
         <Grid>
             <Border BorderBrush="Black" BorderThickness="1" Background="#FF87CEEB" CornerRadius="10" Width="540" Height="450"/>
         </Grid>
-
         <StackPanel>
             <Grid>
                 <TextBox x:Name="pageTwoTxt" Height="280" Width="500" Margin="18" Background="AliceBlue" FontSize="15" Padding="25" TextWrapping="WrapWithOverflow" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" IsReadOnly="True" BorderBrush="Black">
@@ -56,5 +55,14 @@
                 </Button.Resources>
             </Button>
         </StackPanel>
+        <Grid>
+            <TextBox x:Name="tbTime" Margin="27,24,0,0" Background="LightPink" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="Black">
+                <TextBox.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+        </Grid>
     </Grid>
 </Page>

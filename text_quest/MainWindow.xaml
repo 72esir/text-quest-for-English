@@ -5,7 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:text_quest"
         mc:Ignorable="d"
-        Title="Text Quest" Height="450" Width="800">
+        WindowStartupLocation="CenterScreen"
+        MinHeight="550" MinWidth="600"
+        Title="Text Quest" Height="600" Width="800">
+        
     <Grid Background="Transparent">
         <Frame Name="mainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
