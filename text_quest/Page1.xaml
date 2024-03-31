@@ -10,14 +10,14 @@
 
 
     <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Height="450" Width="900">
-        <Button Click="Button_Click" Content="Button" Background="BlueViolet" Foreground="White" FontSize="25">
-            <Button.Resources>
+
+        <Button Click="Button_Click" Background="BlueViolet">
+            <TextBlock FontSize="27" Foreground="White">Start</TextBlock>
+        <Button.Resources>
                 <Style TargetType="Border">
-                    <Setter Property="CornerRadius" Value="10"/>
-                    <Setter Property="BorderBrush" Value="Black"/>
-                    <Setter Property="BorderThickness" Value="1"/>
-                    <Setter Property="Height" Value="50"/>
                     <Setter Property="Width" Value="100"/>
+                    <Setter Property="Height" Value="50"/>
+                    <Setter Property="CornerRadius" Value="10"/>
                 </Style>
             </Button.Resources>
         </Button>
