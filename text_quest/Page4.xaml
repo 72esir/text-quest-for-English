@@ -17,9 +17,36 @@
                 <TextBox x:Name="resultTxt" Height="280" Width="500" Margin="18" Background="AliceBlue" FontSize="15" Padding="25" TextWrapping="WrapWithOverflow" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
                 <Border BorderBrush="Black" BorderThickness="1" Height="280" Width="500" Margin="15" />
             </Grid>
-            <Button Content="Попробовать еще раз" Width="500" Margin="5" Click="Restart"/>
-            <Button Content="Закрыть приложение" Width="500" Margin="5" Click="Close"/>
-            <Button Content="Авторы" Width="500" Margin="5" Click="Us"/>
+            <Button Click="Restart" Background="BlueViolet" Margin="5">
+                <TextBlock FontSize="17" Foreground="White">Restart</TextBlock>
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="Width" Value="500"/>
+                        <Setter Property="Height" Value="30"/>
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Click="Close" Background="BlueViolet" Margin="5">
+                <TextBlock FontSize="17" Foreground="White">Close application</TextBlock>
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="Width" Value="500"/>
+                        <Setter Property="Height" Value="30"/>
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button Click="Us" Background="BlueViolet" Margin="5">
+                <TextBlock FontSize="17" Foreground="White">Authors</TextBlock>
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="Width" Value="500"/>
+                        <Setter Property="Height" Value="30"/>
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
         </StackPanel>
     </Grid>
 </Page>
