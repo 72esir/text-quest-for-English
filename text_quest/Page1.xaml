@@ -10,16 +10,7 @@
 
 
     <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Height="450" Width="900">
-        <Button Click="Button_Click" Content="Button" Background="BlueViolet" Foreground="White" FontSize="25">
-            <Button.Resources>
-                <Style TargetType="Border">
-                    <Setter Property="CornerRadius" Value="10"/>
-                    <Setter Property="BorderBrush" Value="Black"/>
-                    <Setter Property="BorderThickness" Value="1"/>
-                    <Setter Property="Height" Value="50"/>
-                    <Setter Property="Width" Value="100"/>
-                </Style>
-            </Button.Resources>
-        </Button>
+        <Button Content="Button" Click="Button_Click" Height="50" Width="100"/>
+
     </Grid>
 </Page>

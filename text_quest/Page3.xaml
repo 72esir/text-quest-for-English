@@ -17,42 +17,9 @@
                 <TextBox x:Name="pageThreeTxt" Height="280" Width="500" Margin="18" Background="AliceBlue" FontSize="15" Padding="25" TextWrapping="WrapWithOverflow" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
                 <Border BorderBrush="Black" BorderThickness="1" Height="280" Width="500" Margin="15" />
             </Grid>
-            <Button Background="BlueViolet" FontSize="20" Foreground="White" Click="nextFromOne" Margin="5">
-                <TextBlock Margin="2" VerticalAlignment="Bottom">one</TextBlock>
-                <Button.Resources>
-                    <Style TargetType="{x:Type Border}">
-                        <Setter Property="Width" Value="500"/>
-                        <Setter Property="Height" Value="30"/>
-                        <Setter Property="BorderBrush" Value="Black"/>
-                        <Setter Property="BorderThickness" Value="1"/>
-                        <Setter Property="CornerRadius" Value="7"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
-            <Button Background="BlueViolet" FontSize="20" Foreground="White" Click="nextFromTwo" Margin="5">
-                <TextBlock Margin="2" VerticalAlignment="Bottom">two</TextBlock>
-                <Button.Resources>
-                    <Style TargetType="{x:Type Border}">
-                        <Setter Property="Width" Value="500"/>
-                        <Setter Property="Height" Value="30"/>
-                        <Setter Property="BorderBrush" Value="Black"/>
-                        <Setter Property="BorderThickness" Value="1"/>
-                        <Setter Property="CornerRadius" Value="7"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
-            <Button Background="BlueViolet" FontSize="20" Foreground="White" Click="nextFromThree" Margin="5">
-                <TextBlock Margin="2" VerticalAlignment="Bottom">three</TextBlock>
-                <Button.Resources>
-                    <Style TargetType="{x:Type Border}">
-                        <Setter Property="Width" Value="500"/>
-                        <Setter Property="Height" Value="30"/>
-                        <Setter Property="BorderBrush" Value="Black"/>
-                        <Setter Property="BorderThickness" Value="1"/>
-                        <Setter Property="CornerRadius" Value="7"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
+            <Button Content="one" Width="500" Margin="5" Click="nextFromOne"/>
+            <Button Content="two" Width="500" Margin="5" Click="nextFromTwo"/>
+            <Button Content="three" Width="500" Margin="5" Click="nextFromThree"/>
         </StackPanel>
     </Grid> 
 </Page>

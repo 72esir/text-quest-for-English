@@ -26,4 +26,3 @@ C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\refint\text_que
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\text_quest.pdb
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\text_quest.genruntimeconfig.cache
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\ref\text_quest.dll
-C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\text_quest.sourcelink.json
