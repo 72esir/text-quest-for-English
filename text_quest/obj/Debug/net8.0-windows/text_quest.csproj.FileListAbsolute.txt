@@ -7,7 +7,6 @@ C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page1.g.cs
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page2.g.cs
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page3.g.cs
-C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page4.g.cs
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\text_quest_MarkupCompile.cache
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\text_quest_MarkupCompile.lref
@@ -15,7 +14,6 @@ C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page1.baml
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page2.baml
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page3.baml
-C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page4.baml
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\text_quest.g.resources
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\text_quest.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\text_quest.AssemblyInfoInputs.cache
@@ -27,3 +25,17 @@ C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\text_quest.pdb
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\text_quest.genruntimeconfig.cache
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\ref\text_quest.dll
 C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\text_quest.sourcelink.json
+C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page5.g.cs
+C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page5.baml
+C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\final.g.cs
+C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page6.g.cs
+C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page7.g.cs
+C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\final.baml
+C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page6.baml
+C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page7.baml
+C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page8.g.cs
+C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page9.g.cs
+C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page8.baml
+C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page9.baml
+C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page10.g.cs
+C:\Users\asala\source\EnProj\text_quest\obj\Debug\net8.0-windows\Page10.baml

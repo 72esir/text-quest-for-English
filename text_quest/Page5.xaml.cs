@@ -13,17 +13,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using static text_quest.Page2;
+
+
 
 namespace text_quest
 {
     /// <summary>
-    /// Interaction logic for Page2.xaml
+    /// Interaction logic for Page3.xaml
     /// </summary>
-    public partial class Page2 : Page
+    public partial class Page5 : Page
     {
         DispatcherTimer _timer;
         TimeSpan _time;
-        public Page2()
+        int counter = CounterTransfer.counter;
+        public Page5()
         {
             InitializeComponent();
 
@@ -36,34 +40,30 @@ namespace text_quest
                 {
                     _timer.Stop();
                     CounterTransfer.counter += 1;
-                    NavigationService.Navigate(new Page3());
+                    NavigationService.Navigate(new Page6());
                 }
                 _time = _time.Add(TimeSpan.FromSeconds(-1));
             }, Application.Current.Dispatcher);
 
             _timer.Start();
         }
-        public class CounterTransfer
-        {
-            public static int counter { get; set; }
-        }
         private void nextFromOne(object sender, RoutedEventArgs e)
         {
+            CounterTransfer.counter += 1;
             _timer.Stop();
-            CounterTransfer.counter += 2;
-            NavigationService.Navigate(new Page3());
+            NavigationService.Navigate(new Page6());
         }
         private void nextFromTwo(object sender, RoutedEventArgs e)
         {
+            CounterTransfer.counter += 2;
             _timer.Stop();
-            CounterTransfer.counter += 3;
-            NavigationService.Navigate(new Page3());
+            NavigationService.Navigate(new Page6());
         }
         private void nextFromThree(object sender, RoutedEventArgs e)
         {
+            CounterTransfer.counter += 3;
             _timer.Stop();
-            CounterTransfer.counter += 1;
-            NavigationService.Navigate(new Page3());
+            NavigationService.Navigate(new Page6());
         }
     }
 }

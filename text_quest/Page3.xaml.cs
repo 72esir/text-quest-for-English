@@ -39,8 +39,8 @@ namespace text_quest
                 if (_time == TimeSpan.Zero)
                 {
                     _timer.Stop();
-                    CounterTransfer.counter += 0;
-                    NavigationService.Navigate(new Page4());
+                    CounterTransfer.counter += 1;
+                    NavigationService.Navigate(new Page5());
                 }
                 _time = _time.Add(TimeSpan.FromSeconds(-1));
             }, Application.Current.Dispatcher);
@@ -49,21 +49,21 @@ namespace text_quest
         }
         private void nextFromOne(object sender, RoutedEventArgs e)
         {
-            CounterTransfer.counter += 1;
+            CounterTransfer.counter += 2;
             _timer.Stop();
-            NavigationService.Navigate(new Page4());
+            NavigationService.Navigate(new Page5());
         }
         private void nextFromTwo(object sender, RoutedEventArgs e)
         {
-            CounterTransfer.counter += 2;
+            CounterTransfer.counter += 3;
             _timer.Stop();
-            NavigationService.Navigate(new Page4());
+            NavigationService.Navigate(new Page5());
         }
         private void nextFromThree(object sender, RoutedEventArgs e)
         {
-            CounterTransfer.counter += 3;
+            CounterTransfer.counter += 1;
             _timer.Stop();
-            NavigationService.Navigate(new Page4());
+            NavigationService.Navigate(new Page5());
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿<Page x:Class="text_quest.Page2"
+﻿<Page x:Class="text_quest.Page6"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:text_quest"
       mc:Ignorable="d" 
       d:DesignHeight="500" d:DesignWidth="800"
-      Title="Page2">
+      Title="Page6">
 
     <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
         <Grid>
@@ -14,17 +14,16 @@
         </Grid>
         <StackPanel>
             <Grid>
-                <TextBox x:Name="pageTwoTxt" 
-                         Height="280" Width="500" 
-                         Margin="18" 
-                         Background="AliceBlue" 
+                <TextBox x:Name="pageThreeTxt"
+                         Height="280" Width="500"
+                         Margin="18" Background="AliceBlue" 
                          FontSize="25" Padding="25" 
                          TextWrapping="WrapWithOverflow" 
                          AcceptsReturn="True" 
                          VerticalScrollBarVisibility="Auto" 
                          IsReadOnly="True" 
                          BorderBrush="Black">
-                    When you arrive at work, you receive a suspicious email from an unfamiliar sender with a file attached. What do you do?
+                    After a weekend away, you decide to investigate your employer further, but the company's website becomes inaccessible due to massive DDoS attacks. What will be your next step?
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="Width" Value="500"/>
@@ -35,7 +34,7 @@
                 </TextBox>
             </Grid>
             <Button Click="nextFromOne" Background="BlueViolet" Margin="5">
-                <TextBlock FontSize="15" Foreground="White"> Open a file and examine its contents</TextBlock>
+                <TextBlock FontSize="15" Foreground="White">Attempt to restore the site's functionality on your own</TextBlock>
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="Width" Value="500"/>
@@ -45,7 +44,7 @@
                 </Button.Resources>
             </Button>
             <Button Click="nextFromTwo" Background="BlueViolet" Margin="5">
-                <TextBlock FontSize="15" Foreground="White">Immediately delete the e-mail and file without opening it</TextBlock>
+                <TextBlock FontSize="15" Foreground="White" TextWrapping="Wrap" TextAlignment="Center">Report the problem to management and assemble a team to analyze the attack</TextBlock>
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="Width" Value="500"/>
@@ -55,7 +54,7 @@
                 </Button.Resources>
             </Button>
             <Button Click="nextFromThree" Background="BlueViolet" Margin="5">
-                <TextBlock FontSize="15" Foreground="White">Send the file to a colleague for review before opening it</TextBlock>
+                <TextBlock FontSize="15" Foreground="White">Simply wait until the attack is over without taking any action</TextBlock>
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="Width" Value="500"/>

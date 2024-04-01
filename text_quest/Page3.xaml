@@ -5,16 +5,26 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:text_quest"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="500" d:DesignWidth="800"
       Title="Page3">
 
     <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
         <Grid>
-            <Border BorderBrush="Black" BorderThickness="1" Background="#FF87CEEB" CornerRadius="10" Width="540" Height="450"/>
+            <Border BorderBrush="Black" BorderThickness="1" Background="#FF87CEEB" CornerRadius="10" Width="540" Height="500"/>
         </Grid>
         <StackPanel>
             <Grid>
-                <TextBox x:Name="pageThreeTxt" Height="280" Width="500" Margin="18" Background="AliceBlue" FontSize="15" Padding="25" TextWrapping="WrapWithOverflow" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" IsReadOnly="True" BorderBrush="Black">
+                <TextBox x:Name="pageThreeTxt" 
+                         Height="280" Width="500" 
+                         Margin="18" 
+                         Background="AliceBlue" 
+                         FontSize="25" Padding="25" 
+                         TextWrapping="WrapWithOverflow" 
+                         AcceptsReturn="True" 
+                         VerticalScrollBarVisibility="Auto" 
+                         IsReadOnly="True" 
+                         BorderBrush="Black">
+                    Having solved the previous problem, you wanted to sit down in your comfortable chair and continue working, but then you notice strange network activity on your computer. What do you do?
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="Width" Value="500"/>
@@ -25,31 +35,31 @@
                 </TextBox>
             </Grid>
             <Button Click="nextFromOne" Background="BlueViolet" Margin="5">
-                <TextBlock FontSize="17" Foreground="White">One</TextBlock>
+                <TextBlock FontSize="15" Foreground="White">Continue working, assuming it's a temporary network outage</TextBlock>
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="Width" Value="500"/>
-                        <Setter Property="Height" Value="30"/>
+                        <Setter Property="Height" Value="45"/>
                         <Setter Property="CornerRadius" Value="10"/>
                     </Style>
                 </Button.Resources>
             </Button>
             <Button Click="nextFromTwo" Background="BlueViolet" Margin="5">
-                <TextBlock FontSize="17" Foreground="White">Two</TextBlock>
+                <TextBlock FontSize="15" Foreground="White" TextWrapping="Wrap" Width="438">Report the problem to your management and coworkers to check network security</TextBlock>
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="Width" Value="500"/>
-                        <Setter Property="Height" Value="30"/>
+                        <Setter Property="Height" Value="45"/>
                         <Setter Property="CornerRadius" Value="10"/>
                     </Style>
                 </Button.Resources>
             </Button>
             <Button Click="nextFromThree" Background="BlueViolet" Margin="5">
-                <TextBlock FontSize="17" Foreground="White">Three</TextBlock>
+                <TextBlock FontSize="15" Foreground="White" >Try to solve the problem yourself, ignoring the warnings</TextBlock>
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="Width" Value="500"/>
-                        <Setter Property="Height" Value="30"/>
+                        <Setter Property="Height" Value="45"/>
                         <Setter Property="CornerRadius" Value="10"/>
                     </Style>
                 </Button.Resources>
