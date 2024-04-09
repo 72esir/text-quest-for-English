@@ -7,19 +7,33 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Page1">
-
-
-    <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Height="450" Width="900">
-
-        <Button Click="Button_Click" Background="BlueViolet">
-            <TextBlock FontSize="27" Foreground="White">Start</TextBlock>
+    <Page.Background>
+        <ImageBrush ImageSource="C:\Users\asala\Downloads\first.png" Stretch="UniformToFill"/>
+    </Page.Background>
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Height="450" Width="900" Opacity="0.91">
+        <Grid>
+            <Border BorderBrush="Black" BorderThickness="1" Background="#355c7d" CornerRadius="10" Width="420" Height="270"/>
+        </Grid>
+        <TextBox BorderBrush="SkyBlue" Background="#FFFFEBCD" BorderThickness="1" IsReadOnly="True" FontSize="25" TextAlignment="Center" TextWrapping="Wrap">
+                You are a young cyber specialist recently hired by a large information security company. But suddenly, some strange events begin to happen.
+                <TextBox.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="Width" Value="400"/>
+                        <Setter Property="Height" Value="250"/>
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+        <Button Click="Button_Click" Background="#FFFFDAB9" Margin="50,200,50,50">
+            <TextBlock FontSize="27" Foreground="Black">Start job</TextBlock>
         <Button.Resources>
                 <Style TargetType="Border">
-                    <Setter Property="Width" Value="100"/>
-                    <Setter Property="Height" Value="50"/>
+                    <Setter Property="Width" Value="120"/>
+                    <Setter Property="Height" Value="45"/>
                     <Setter Property="CornerRadius" Value="10"/>
                 </Style>
             </Button.Resources>
         </Button>
+            
     </Grid>
 </Page>

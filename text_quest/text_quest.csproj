@@ -8,4 +8,13 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Costura.Fody" Version="5.7.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+	<IncludeNativeLibrariesForSelfExtract >true</IncludeNativeLibrariesForSelfExtract>
+	<SelfContained>true</SelfContained>
+	<PublishSingleFile>True</PublishSingleFile>
 </Project>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("text_quest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3d661059c487d03afcc33bc21d94151231a9968")]
 [assembly: System.Reflection.AssemblyProductAttribute("text_quest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("text_quest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

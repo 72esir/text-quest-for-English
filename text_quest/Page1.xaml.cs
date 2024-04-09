@@ -26,7 +26,7 @@ namespace text_quest
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Page2());
+            NavigationService.Navigate(new PassPage());
         }
     }
 }

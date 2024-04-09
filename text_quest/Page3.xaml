@@ -5,48 +5,75 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:text_quest"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="500" d:DesignWidth="800"
       Title="Page3">
-
-    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+    <Page.Background>
+        <ImageBrush ImageSource="C:\Users\asala\Downloads\third.png" Stretch="UniformToFill"/>
+    </Page.Background>
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Opacity="0.91">
         <Grid>
-            <Border BorderBrush="Black" BorderThickness="1" Background="#FF87CEEB" CornerRadius="10" Width="540" Height="450"/>
+            <Border BorderBrush="Black" BorderThickness="1" Background="#355c7d" CornerRadius="10" Width="540" Height="500"/>
         </Grid>
         <StackPanel>
             <Grid>
-                <TextBox x:Name="pageThreeTxt" Height="280" Width="500" Margin="18" Background="AliceBlue" FontSize="15" Padding="25" TextWrapping="WrapWithOverflow" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
-                <Border BorderBrush="Black" BorderThickness="1" Height="280" Width="500" Margin="15" />
+                <TextBox x:Name="pageThreeTxt" 
+                         Height="280" Width="500" 
+                         Margin="18" 
+                         Background="#FFFFEBCD" 
+                         FontSize="25" Padding="25" 
+                         TextWrapping="WrapWithOverflow" 
+                         AcceptsReturn="True" 
+                         VerticalScrollBarVisibility="Auto" 
+                         IsReadOnly="True" 
+                         BorderBrush="SkyBlue">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="Width" Value="500"/>
+                            <Setter Property="Height" Value="280"/>
+                            <Setter Property="CornerRadius" Value="3"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
             </Grid>
-            <Button Click="nextFromOne" Background="BlueViolet" Margin="5">
-                <TextBlock FontSize="17" Foreground="White">One</TextBlock>
+            <Button Click="nextFromOne" Background="#FF008B8B" Margin="5"  BorderBrush="#FFFFEBCD" BorderThickness="1">
+                <TextBlock FontSize="15" Foreground="#FFFFEBCD">Continue working, assuming it's a temporary network outage</TextBlock>
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="Width" Value="500"/>
-                        <Setter Property="Height" Value="30"/>
+                        <Setter Property="Height" Value="45"/>
                         <Setter Property="CornerRadius" Value="10"/>
                     </Style>
                 </Button.Resources>
             </Button>
-            <Button Click="nextFromTwo" Background="BlueViolet" Margin="5">
-                <TextBlock FontSize="17" Foreground="White">Two</TextBlock>
+            <Button Click="nextFromTwo" Background="#FF008B8B" Margin="5"  BorderBrush="#FFFFEBCD" BorderThickness="1">
+                <TextBlock FontSize="15" Foreground="#FFFFEBCD" TextWrapping="Wrap" TextAlignment="Center">Report the problem to your management and coworkers to check network security</TextBlock>
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="Width" Value="500"/>
-                        <Setter Property="Height" Value="30"/>
+                        <Setter Property="Height" Value="45"/>
                         <Setter Property="CornerRadius" Value="10"/>
                     </Style>
                 </Button.Resources>
             </Button>
-            <Button Click="nextFromThree" Background="BlueViolet" Margin="5">
-                <TextBlock FontSize="17" Foreground="White">Three</TextBlock>
+            <Button Click="nextFromThree" Background="#FF008B8B" Margin="5"  BorderBrush="#FFFFEBCD" BorderThickness="1">
+                <TextBlock FontSize="15" Foreground="#FFFFEBCD" >Try to solve the problem yourself, ignoring the warnings</TextBlock>
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="Width" Value="500"/>
-                        <Setter Property="Height" Value="30"/>
+                        <Setter Property="Height" Value="45"/>
                         <Setter Property="CornerRadius" Value="10"/>
                     </Style>
                 </Button.Resources>
             </Button>
         </StackPanel>
+        <Grid>
+            <TextBox x:Name="tbTime" Margin="27,24,0,0" Background="#FF008B8B" Width="37" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="SkyBlue" Foreground="#FFFFEBCD">
+                <TextBox.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+        </Grid>
     </Grid> 
 </Page>
